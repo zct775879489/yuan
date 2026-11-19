@@ -1,0 +1,2779 @@
+{
+  "info": {
+    "name": "蒙德裸露宝箱_视频区域顺序_重标定版",
+    "type": "collect",
+    "version": "0.2.0",
+    "description": "按B站BV1oa4y1H7b5的分P区域顺序整理蒙德可直接开启宝箱。坐标经空荧酒馆瓦片坐标系重标定：X=396.125-0.75*lat、Y=-619.9375-0.75*lng，已用蒙德四座七天神像校验，误差3-8游戏单位。仅保留说明中明确“直接开启/可直接开启”且不含解谜、仙灵、挑战、怪物解锁的点位；已排除龙脊雪山。每个区域内按最近邻顺序连接，区域内不含绕障、攀爬、飞行等细路径，塔顶、树上、高台点位需人工补充。",
+    "map_name": "Teyvat",
+    "bgi_version": "0.45.0",
+    "tags": [
+      "蒙德",
+      "裸露宝箱",
+      "视频区域顺序",
+      "坐标重标定"
+    ],
+    "authors": []
+  },
+  "positions": [
+    {
+      "id": 1,
+      "x": -1998.79,
+      "y": 1435.52,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "誓言岬｜传送至传送锚点(-1998.79, 1435.52)"
+      }
+    },
+    {
+      "id": 2,
+      "x": -1985.4,
+      "y": 1481.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "誓言岬｜点位ID 470｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 3,
+      "x": -1887.4,
+      "y": 1408.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "誓言岬｜点位ID 451｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 4,
+      "x": -1845.8,
+      "y": 1404.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "誓言岬｜点位ID 450｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 5,
+      "x": -1861.0,
+      "y": 1320.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "誓言岬｜点位ID 510｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 6,
+      "x": -1720.9,
+      "y": 1245.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "誓言岬｜点位ID 459｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 7,
+      "x": -1772.9,
+      "y": 1490.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "誓言岬｜点位ID 445｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 8,
+      "x": -2119.4,
+      "y": 1571.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "誓言岬｜点位ID 467｜这是一个直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 9,
+      "x": -1432.38,
+      "y": 1465.25,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜传送至传送锚点(-1432.38, 1465.25)"
+      }
+    },
+    {
+      "id": 10,
+      "x": -1445.1,
+      "y": 1455.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 398｜这是一个直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 11,
+      "x": -1562.1,
+      "y": 1453.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 399｜这是一个直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 12,
+      "x": -1578.6,
+      "y": 1489.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 396｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 13,
+      "x": -1608.6,
+      "y": 1456.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 447｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 14,
+      "x": -1675.4,
+      "y": 1352.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 453｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 15,
+      "x": -1703.9,
+      "y": 1292.5,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 456｜这是一个直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 16,
+      "x": -1647.4,
+      "y": 1249.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 458｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 17,
+      "x": -1537.0,
+      "y": 1260.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 407｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 18,
+      "x": -1513.4,
+      "y": 1292.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 406｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 19,
+      "x": -1499.5,
+      "y": 1311.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 405｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 20,
+      "x": -1538.4,
+      "y": 1583.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 508｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 21,
+      "x": -1683.1,
+      "y": 1676.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "达达乌帕谷｜点位ID 491｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 22,
+      "x": -1266.34,
+      "y": 1934.37,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "风起地｜传送至七天神像-风(-1266.34, 1934.37)"
+      }
+    },
+    {
+      "id": 23,
+      "x": -1252.0,
+      "y": 1880.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风起地｜点位ID 523｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 24,
+      "x": -1195.1,
+      "y": 1802.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风起地｜点位ID 504｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 25,
+      "x": -1164.7,
+      "y": 1828.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风起地｜点位ID 303｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 26,
+      "x": -1131.9,
+      "y": 1923.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风起地｜点位ID 300｜这是一个在石柱顶部直接开启的【精致宝箱】内有2原石"
+      }
+    },
+    {
+      "id": 27,
+      "x": -1362.9,
+      "y": 2101.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风起地｜点位ID 377｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 28,
+      "x": -1505.59,
+      "y": 2296.89,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "摘星崖｜传送至传送锚点(-1505.59, 2296.89)"
+      }
+    },
+    {
+      "id": 29,
+      "x": -1466.9,
+      "y": 2236.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 366｜这是一个在半山腰的角落里直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 30,
+      "x": -1523.4,
+      "y": 2222.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 476｜这是一个在山下洞里直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 31,
+      "x": -1533.1,
+      "y": 2162.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 373｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 32,
+      "x": -1718.5,
+      "y": 2161.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 442｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 33,
+      "x": -1691.1,
+      "y": 2277.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 438｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 34,
+      "x": -1743.6,
+      "y": 2289.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 437｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 35,
+      "x": -1766.1,
+      "y": 2331.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 435｜这是一个在遗迹上直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 36,
+      "x": -1793.4,
+      "y": 2376.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 431｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 37,
+      "x": -1667.5,
+      "y": 2370.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 432｜这是一个直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 38,
+      "x": -1670.0,
+      "y": 2327.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 434｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 39,
+      "x": -1518.4,
+      "y": 2370.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 363｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 40,
+      "x": -1525.9,
+      "y": 2450.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 361｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 41,
+      "x": -1329.6,
+      "y": 2255.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "摘星崖｜点位ID 287｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 42,
+      "x": -1120.63,
+      "y": 2191.16,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "坠星山谷｜传送至传送锚点(-1120.63, 2191.16)"
+      }
+    },
+    {
+      "id": 43,
+      "x": -1097.2,
+      "y": 2266.0,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 286｜这是一个可以直接拾取的【普通宝箱】"
+      }
+    },
+    {
+      "id": 44,
+      "x": -1122.6,
+      "y": 2318.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 500｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 45,
+      "x": -1093.9,
+      "y": 2375.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 280｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 46,
+      "x": -1191.7,
+      "y": 2381.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 499｜这是一个直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 47,
+      "x": -1261.6,
+      "y": 2132.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 292｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 48,
+      "x": -1082.9,
+      "y": 2082.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 295｜这是一个直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 49,
+      "x": -1536.56,
+      "y": 1979.23,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "坠星山谷｜传送至传送锚点(-1536.56, 1979.23)"
+      }
+    },
+    {
+      "id": 50,
+      "x": -1535.1,
+      "y": 1972.0,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 384｜这是一个传送点旁直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 51,
+      "x": -1578.1,
+      "y": 1967.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 385｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 52,
+      "x": -1577.1,
+      "y": 2026.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 483｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 53,
+      "x": -1590.6,
+      "y": 2064.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 477｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 54,
+      "x": -1565.4,
+      "y": 2121.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 375｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 55,
+      "x": -1579.3,
+      "y": 2141.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 374｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 56,
+      "x": -1488.4,
+      "y": 1991.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 382｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 57,
+      "x": -1491.0,
+      "y": 1960.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 386｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 58,
+      "x": -1415.2,
+      "y": 2069.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 503｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 59,
+      "x": -1510.5,
+      "y": 1805.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 391｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 60,
+      "x": -1642.16,
+      "y": 2682.84,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "坠星山谷｜传送至传送锚点(-1642.16, 2682.84)"
+      }
+    },
+    {
+      "id": 61,
+      "x": -1572.6,
+      "y": 2641.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 350｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 62,
+      "x": -1524.1,
+      "y": 2564.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 354｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 63,
+      "x": -1549.2,
+      "y": 2536.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 535｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 64,
+      "x": -1788.9,
+      "y": 2691.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 424｜这是一个直接开启的【珍贵宝箱】"
+      }
+    },
+    {
+      "id": 65,
+      "x": -2330.4,
+      "y": 2677.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 494｜这是一个在沙滩上直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 66,
+      "x": -2356.7,
+      "y": 2644.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 495｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 67,
+      "x": -2374.2,
+      "y": 2633.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "坠星山谷｜点位ID 496｜这是一个直接开启的【华丽宝箱】"
+      }
+    },
+    {
+      "id": 68,
+      "x": -1329.82,
+      "y": 2564.54,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "星落湖｜传送至七天神像-风(-1329.82, 2564.54)"
+      }
+    },
+    {
+      "id": 69,
+      "x": -1360.3,
+      "y": 2623.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 351｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 70,
+      "x": -1402.4,
+      "y": 2567.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 353｜这是一个草丛内直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 71,
+      "x": -1440.1,
+      "y": 2505.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 356｜这是一个在山脚直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 72,
+      "x": -1470.1,
+      "y": 2654.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 348｜这是一个在半山腰直接开启的【普通宝箱】内有2原石"
+      }
+    },
+    {
+      "id": 73,
+      "x": -1271.1,
+      "y": 2527.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 527｜可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 74,
+      "x": -1159.4,
+      "y": 2527.0,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 269｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 75,
+      "x": -1163.4,
+      "y": 2593.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 265｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 76,
+      "x": -1094.5,
+      "y": 2492.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 272｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 77,
+      "x": -1277.4,
+      "y": 2389.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 534｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 78,
+      "x": -1291.1,
+      "y": 2408.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 277｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 79,
+      "x": -1273.47,
+      "y": 2722.32,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "望风山地｜传送至传送锚点(-1273.47, 2722.32)"
+      }
+    },
+    {
+      "id": 80,
+      "x": -1293.2,
+      "y": 2676.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 256｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 81,
+      "x": -1319.4,
+      "y": 2680.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 257｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 82,
+      "x": -1406.9,
+      "y": 2687.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 347｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 83,
+      "x": -1434.4,
+      "y": 2728.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 343｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 84,
+      "x": -1404.4,
+      "y": 2821.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 337｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 85,
+      "x": -1216.9,
+      "y": 2723.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 250｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 86,
+      "x": -1175.1,
+      "y": 2746.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 247｜这是一个直接开启的【普通宝箱】内有2原石"
+      }
+    },
+    {
+      "id": 87,
+      "x": -1167.3,
+      "y": 2732.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 248｜这是一个直接开启的【普通宝箱】内有2原石"
+      }
+    },
+    {
+      "id": 88,
+      "x": -1149.7,
+      "y": 2755.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 246｜这是一个直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 89,
+      "x": -1111.4,
+      "y": 2694.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 254｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 90,
+      "x": -1132.4,
+      "y": 2664.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 260｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 91,
+      "x": -1629.05,
+      "y": 2835.02,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "望风山地｜传送至传送锚点(-1629.05, 2835.02)"
+      }
+    },
+    {
+      "id": 92,
+      "x": -1664.9,
+      "y": 2842.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 420｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 93,
+      "x": -1661.1,
+      "y": 2903.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 482｜这是一个直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 94,
+      "x": -1621.4,
+      "y": 2912.5,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 411｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 95,
+      "x": -1580.1,
+      "y": 2927.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 328｜这是一个山崖下直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 96,
+      "x": -1634.1,
+      "y": 2964.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 409｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 97,
+      "x": -1746.6,
+      "y": 2942.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 410｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 98,
+      "x": -1745.8,
+      "y": 2857.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 417｜这是一个可以直接开启的【普通宝箱】（需要补图）"
+      }
+    },
+    {
+      "id": 99,
+      "x": -1799.8,
+      "y": 2848.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 418｜这是一个直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 100,
+      "x": -1841.9,
+      "y": 2875.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 414｜这是一个可以直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 101,
+      "x": -1873.3,
+      "y": 2840.5,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 422｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 102,
+      "x": -1562.0,
+      "y": 2789.5,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 340｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 103,
+      "x": -1489.4,
+      "y": 2823.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 336｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 104,
+      "x": -1427.4,
+      "y": 2868.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 333｜这是一个岸边直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 105,
+      "x": -1426.4,
+      "y": 2955.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "望风山地｜点位ID 327｜这是一个在瀑布下方直接开启的【华丽宝箱】"
+      }
+    },
+    {
+      "id": 106,
+      "x": -749.44,
+      "y": 2263.18,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "蒙德城｜传送至传送锚点(-749.44, 2263.18)"
+      }
+    },
+    {
+      "id": 107,
+      "x": -750.6,
+      "y": 2244.0,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 216｜直接开启的【华丽宝箱】内有【食谱：北地烟熏鸡】"
+      }
+    },
+    {
+      "id": 108,
+      "x": -750.6,
+      "y": 2228.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 218｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 109,
+      "x": -773.9,
+      "y": 2236.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 217｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 110,
+      "x": -769.1,
+      "y": 2205.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 220｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 111,
+      "x": -824.1,
+      "y": 2162.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 224｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 112,
+      "x": -723.4,
+      "y": 2259.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 215｜直接开启的【普通宝箱】10阅历（需补图）"
+      }
+    },
+    {
+      "id": 113,
+      "x": -756.9,
+      "y": 2382.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 206｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 114,
+      "x": -650.4,
+      "y": 2370.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 159｜教堂顶上直接开启的【华丽宝箱】10原石"
+      }
+    },
+    {
+      "id": 115,
+      "x": -867.69,
+      "y": 2281.5,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "蒙德城｜传送至传送锚点(-867.69, 2281.5)"
+      }
+    },
+    {
+      "id": 116,
+      "x": -876.1,
+      "y": 2283.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 213｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 117,
+      "x": -871.3,
+      "y": 2319.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 210｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 118,
+      "x": -857.9,
+      "y": 2344.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 209｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 119,
+      "x": -821.4,
+      "y": 2377.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 207｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 120,
+      "x": -833.4,
+      "y": 2261.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 214｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 121,
+      "x": -873.1,
+      "y": 2184.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 223｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 122,
+      "x": -861.9,
+      "y": 2143.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 225｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 123,
+      "x": -917.1,
+      "y": 2197.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 221｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 124,
+      "x": -942.4,
+      "y": 2219.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 219｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 125,
+      "x": -951.6,
+      "y": 2287.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 212｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 126,
+      "x": -923.4,
+      "y": 2317.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "蒙德城｜点位ID 211｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 127,
+      "x": -867.23,
+      "y": 1992.87,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "清泉镇｜传送至传送锚点(-867.23, 1992.87)"
+      }
+    },
+    {
+      "id": 128,
+      "x": -906.6,
+      "y": 1931.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "清泉镇｜点位ID 229｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 129,
+      "x": -914.58,
+      "y": 1796.11,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "清泉镇｜传送至传送锚点(-914.58, 1796.11)"
+      }
+    },
+    {
+      "id": 130,
+      "x": -822.9,
+      "y": 1789.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "清泉镇｜点位ID 234｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 131,
+      "x": -823.0,
+      "y": 1737.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "清泉镇｜点位ID 236｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 132,
+      "x": -866.9,
+      "y": 1882.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "清泉镇｜点位ID 232｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 133,
+      "x": -200.79,
+      "y": 1862.55,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "苍风高地｜传送至传送锚点(-200.79, 1862.55)"
+      }
+    },
+    {
+      "id": 134,
+      "x": -167.0,
+      "y": 1899.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 123｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 135,
+      "x": -274.4,
+      "y": 1805.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 127｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 136,
+      "x": -356.8,
+      "y": 1753.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 201｜这是一个直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 137,
+      "x": -383.6,
+      "y": 1682.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 481｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 138,
+      "x": -178.3,
+      "y": 1584.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 135｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 139,
+      "x": -372.4,
+      "y": 1969.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 189｜藏在山腰角落里直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 140,
+      "x": -66.4,
+      "y": 2109.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 119｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 141,
+      "x": -42.1,
+      "y": 2053.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 120｜这是一个在高台上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 142,
+      "x": -578.44,
+      "y": 1854.05,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "苍风高地｜传送至七天神像-风(-578.44, 1854.05)"
+      }
+    },
+    {
+      "id": 143,
+      "x": -606.0,
+      "y": 1782.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 199｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 144,
+      "x": -627.5,
+      "y": 1744.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 204｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 145,
+      "x": -515.7,
+      "y": 1788.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 197｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 146,
+      "x": -445.3,
+      "y": 1810.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 525｜这是一个在推车上直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 147,
+      "x": -415.9,
+      "y": 1763.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 200｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 148,
+      "x": -391.4,
+      "y": 1737.0,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 202｜这是一个直接开启的【普通宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 149,
+      "x": -390.1,
+      "y": 1848.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 514｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 150,
+      "x": -524.6,
+      "y": 1671.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 487｜这是一个在墙边直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 151,
+      "x": -643.4,
+      "y": 1950.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 192｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 152,
+      "x": -1130.48,
+      "y": 1598.55,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "苍风高地｜传送至传送锚点(-1130.48, 1598.55)"
+      }
+    },
+    {
+      "id": 153,
+      "x": -1202.3,
+      "y": 1661.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 316｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 154,
+      "x": -1188.1,
+      "y": 1676.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 313｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 155,
+      "x": -1273.4,
+      "y": 1707.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 310｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 156,
+      "x": -1329.9,
+      "y": 1678.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 314｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 157,
+      "x": -1345.1,
+      "y": 1695.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 311｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 158,
+      "x": -1283.2,
+      "y": 1611.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "苍风高地｜点位ID 320｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 159,
+      "x": -385.93,
+      "y": 2298.24,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "奔狼领｜传送至传送锚点(-385.93, 2298.24)"
+      }
+    },
+    {
+      "id": 160,
+      "x": -387.3,
+      "y": 2347.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 161｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 161,
+      "x": -393.1,
+      "y": 2360.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 162｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 162,
+      "x": -294.4,
+      "y": 2265.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 112｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 163,
+      "x": -202.2,
+      "y": 2316.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 106｜这是一个在柱子上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 164,
+      "x": -192.1,
+      "y": 2390.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 98｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 165,
+      "x": -399.7,
+      "y": 2222.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 169｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 166,
+      "x": -521.32,
+      "y": 2181.97,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "奔狼领｜传送至传送锚点(-521.32, 2181.97)"
+      }
+    },
+    {
+      "id": 167,
+      "x": -478.0,
+      "y": 2206.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 170｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 168,
+      "x": -476.3,
+      "y": 2233.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 167｜这是一个在角落里直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 169,
+      "x": -469.9,
+      "y": 2156.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 174｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 170,
+      "x": -427.4,
+      "y": 2133.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 178｜这是一个在草丛中直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 171,
+      "x": -494.6,
+      "y": 2096.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 183｜这是一个在树上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 172,
+      "x": -527.5,
+      "y": 2106.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 181｜这是一个在树上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 173,
+      "x": -513.0,
+      "y": 2129.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "奔狼领｜点位ID 179｜在树上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 174,
+      "x": 37.07,
+      "y": 2381.46,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "明冠山地｜传送至传送锚点(37.07, 2381.46)"
+      }
+    },
+    {
+      "id": 175,
+      "x": 62.8,
+      "y": 2395.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 74｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 176,
+      "x": 48.9,
+      "y": 2412.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 72｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 177,
+      "x": 27.1,
+      "y": 2409.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 71｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 178,
+      "x": -4.1,
+      "y": 2414.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 82｜这是一个在遗迹传送点高度直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 179,
+      "x": 67.6,
+      "y": 2468.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 66｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 180,
+      "x": 130.6,
+      "y": 2479.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 53｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 181,
+      "x": 137.6,
+      "y": 2452.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 54｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 182,
+      "x": 144.9,
+      "y": 2443.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 55｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 183,
+      "x": -23.9,
+      "y": 2516.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 85｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 184,
+      "x": -86.2,
+      "y": 2352.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 530｜这是一个在高墙上方缝隙中直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 185,
+      "x": -78.1,
+      "y": 2332.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 104｜这是一个悬崖下石柱上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 186,
+      "x": -12.8,
+      "y": 2153.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 515｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 187,
+      "x": -439.84,
+      "y": 2581.44,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "明冠山地｜传送至传送锚点(-439.84, 2581.44)"
+      }
+    },
+    {
+      "id": 188,
+      "x": -414.8,
+      "y": 2631.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 518｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 189,
+      "x": -509.6,
+      "y": 2662.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 143｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 190,
+      "x": -428.4,
+      "y": 2483.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "明冠山地｜点位ID 488｜这是一个在树上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 191,
+      "x": 338.55,
+      "y": 2581.83,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "风龙废墟｜传送至传送锚点(338.55, 2581.83)"
+      }
+    },
+    {
+      "id": 192,
+      "x": 401.1,
+      "y": 2575.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 8｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 193,
+      "x": 405.6,
+      "y": 2517.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 526｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 194,
+      "x": 467.5,
+      "y": 2473.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 2｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 195,
+      "x": 394.2,
+      "y": 2392.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 10｜这是一个进门左转被木箱包围直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 196,
+      "x": 266.4,
+      "y": 2454.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 34｜这是一个在高台上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 197,
+      "x": 274.1,
+      "y": 2520.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 33｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 198,
+      "x": 427.9,
+      "y": 2646.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 6｜这是一个直接开启得【普通宝箱】"
+      }
+    },
+    {
+      "id": 199,
+      "x": 447.6,
+      "y": 2642.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 3｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 200,
+      "x": 464.6,
+      "y": 2627.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 4｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 201,
+      "x": 473.1,
+      "y": 2699.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 1｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 202,
+      "x": 265.92,
+      "y": 2915.5,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "风龙废墟｜传送至传送锚点(265.92, 2915.5)"
+      }
+    },
+    {
+      "id": 203,
+      "x": 177.4,
+      "y": 3049.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 45｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 204,
+      "x": 108.3,
+      "y": 2954.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 59｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 205,
+      "x": 177.46,
+      "y": 2647.72,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "风龙废墟｜传送至七天神像-风(177.46, 2647.72)"
+      }
+    },
+    {
+      "id": 206,
+      "x": 194.5,
+      "y": 2619.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 42｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 207,
+      "x": 223.7,
+      "y": 2604.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 38｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 208,
+      "x": 192.1,
+      "y": 2519.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 43｜这是一个在桥上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 209,
+      "x": 174.4,
+      "y": 2698.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 48｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 210,
+      "x": 185.6,
+      "y": 2721.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 47｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 211,
+      "x": 179.4,
+      "y": 2735.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 46｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 212,
+      "x": 210.9,
+      "y": 2719.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 39｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 213,
+      "x": 119.36,
+      "y": 2652.99,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "风龙废墟｜传送至传送锚点(119.36, 2652.99)"
+      }
+    },
+    {
+      "id": 214,
+      "x": 129.9,
+      "y": 2662.0,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 57｜这是一个在传送点高度直接开启的【精致宝箱】（需补图）"
+      }
+    },
+    {
+      "id": 215,
+      "x": 133.0,
+      "y": 2648.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 58｜塔顶直接开启的【华丽宝箱】"
+      }
+    },
+    {
+      "id": 216,
+      "x": 93.5,
+      "y": 2623.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 63｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 217,
+      "x": 51.4,
+      "y": 2603.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 68｜这是一个在桥下角落里直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 218,
+      "x": 15.9,
+      "y": 2566.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 80｜这是一个在平台上直接开启【普通宝箱】"
+      }
+    },
+    {
+      "id": 219,
+      "x": -3.8,
+      "y": 2586.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 81｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 220,
+      "x": 40.7,
+      "y": 2676.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 78｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 221,
+      "x": 85.2,
+      "y": 2697.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 492｜这是一个在缝隙里直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 222,
+      "x": 96.6,
+      "y": 2692.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 61｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 223,
+      "x": 98.1,
+      "y": 2684.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 62｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 224,
+      "x": 94.6,
+      "y": 2731.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 64｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 225,
+      "x": 120.6,
+      "y": 2740.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 489｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 226,
+      "x": -83.5,
+      "y": 2782.3,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "风龙废墟｜传送至传送锚点(-83.5, 2782.3)"
+      }
+    },
+    {
+      "id": 227,
+      "x": -180.0,
+      "y": 2789.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 89｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 228,
+      "x": -84.8,
+      "y": 2640.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 92｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 229,
+      "x": -58.0,
+      "y": 2642.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 91｜这是一个直接开启的普通宝箱"
+      }
+    },
+    {
+      "id": 230,
+      "x": 27.4,
+      "y": 2912.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "风龙废墟｜点位ID 75｜这是一个直接开启的【普通宝箱】"
+      }
+    }
+  ]
+}
