@@ -1,0 +1,1316 @@
+{
+  "info": {
+    "name": "蒙德裸露宝箱_视频顺序_实验版_88个",
+    "type": "collect",
+    "version": "0.1.0-exp",
+    "description": "实验版，未实机验证。按B站BV1oa4y1H7b5的分P与宝箱编号顺序整理，仅保留视频1–523号范围内、当前空荧酒馆说明明确标注“直接开启/直接拿/可见宝箱”且未命中排除条件的88个点位；排除解谜、仙灵、挑战、怪物守护及获取方式不明点。坐标取自空荧酒馆2020-12-17历史数据并转换为BetterGI游戏坐标。各区域使用最近传送点，区域内仅连接宝箱终点，不含视频中的绕障、攀爬、飞行、游泳等细路径；塔顶、树上、无人岛等点位需人工补充路径。请先截取短区域试跑，并开启自动拾取。视频：https://www.bilibili.com/video/BV1oa4y1H7b5；点位数据：https://github.com/kongying-tavern/yuan-shen-map",
+    "map_name": "Teyvat",
+    "bgi_version": "0.45.0",
+    "tags": [
+      "蒙德",
+      "裸露宝箱",
+      "视频编号顺序",
+      "实验版",
+      "未实机验证"
+    ],
+    "authors": []
+  },
+  "positions": [
+    {
+      "id": 1,
+      "x": -1281.05,
+      "y": 2530.99,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P1 同步开图主线：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 2,
+      "x": -1281.05,
+      "y": 2530.99,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#1｜P1 同步开图主线｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 3,
+      "x": -1282.15,
+      "y": 2534.78,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P2 誓言岬：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 4,
+      "x": -1282.15,
+      "y": 2534.78,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#3｜P2 誓言岬｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 5,
+      "x": -1282.59,
+      "y": 2533.79,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#4｜P2 誓言岬｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 6,
+      "x": -1283.78,
+      "y": 2533.75,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#6｜P2 誓言岬｜这是一个直接开启得【普通宝箱】"
+      }
+    },
+    {
+      "id": 7,
+      "x": -1297.57,
+      "y": 2535.34,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P3–P7 达达乌帕谷：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 8,
+      "x": -1297.57,
+      "y": 2535.34,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#42｜P3–P7 达达乌帕谷｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 9,
+      "x": -1298.41,
+      "y": 2529.04,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#46｜P3–P7 达达乌帕谷｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 10,
+      "x": -1298.06,
+      "y": 2529.66,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#47｜P3–P7 达达乌帕谷｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 11,
+      "x": -1298.98,
+      "y": 2530.86,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#48｜P3–P7 达达乌帕谷｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 12,
+      "x": -1301.35,
+      "y": 2533.58,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#58｜P3–P7 达达乌帕谷｜塔顶直接开启的【华丽宝箱】"
+      }
+    },
+    {
+      "id": 13,
+      "x": -1302.89,
+      "y": 2516.65,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#59｜P3–P7 达达乌帕谷｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 14,
+      "x": -1303.24,
+      "y": 2531.47,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#61｜P3–P7 达达乌帕谷｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 15,
+      "x": -1302.89,
+      "y": 2531.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#62｜P3–P7 达达乌帕谷｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 16,
+      "x": -1303.33,
+      "y": 2535.22,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#63｜P3–P7 达达乌帕谷｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 17,
+      "x": -1303.81,
+      "y": 2529.24,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#64｜P3–P7 达达乌帕谷｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 18,
+      "x": -1310.32,
+      "y": 2541,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P8 鹰翔海滩：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 19,
+      "x": -1310.32,
+      "y": 2541,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#85｜P8 鹰翔海滩｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 20,
+      "x": -1319.37,
+      "y": 2526.05,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P9–P10 风起地：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 21,
+      "x": -1319.37,
+      "y": 2526.05,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#89｜P9–P10 风起地｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 22,
+      "x": -1312.43,
+      "y": 2534.08,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#91｜P9–P10 风起地｜这是一个直接开启的普通宝箱"
+      }
+    },
+    {
+      "id": 23,
+      "x": -1313.88,
+      "y": 2534.08,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#92｜P9–P10 风起地｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 24,
+      "x": -1326.26,
+      "y": 2554.48,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#112｜P9–P10 风起地｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 25,
+      "x": -1318.79,
+      "y": 2573.38,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#123｜P9–P10 风起地｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 26,
+      "x": -1339.06,
+      "y": 2532.17,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P12 摘星崖：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 27,
+      "x": -1339.06,
+      "y": 2532.17,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#143｜P12 摘星崖｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 28,
+      "x": -1347.05,
+      "y": 2548.87,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#159｜P12 摘星崖｜教堂顶上直接开启的【华丽宝箱】"
+      }
+    },
+    {
+      "id": 29,
+      "x": -1331.85,
+      "y": 2549.91,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P13 无人岛：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 30,
+      "x": -1331.85,
+      "y": 2549.91,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#161｜P13 无人岛｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 31,
+      "x": -1331.68,
+      "y": 2550.23,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#162｜P13 无人岛｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 32,
+      "x": -1336.73,
+      "y": 2560.03,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P14 低语森林：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 33,
+      "x": -1336.73,
+      "y": 2560.03,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#174｜P14 低语森林｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 34,
+      "x": -1340.07,
+      "y": 2562.25,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#181｜P14 低语森林｜这是一个在树上直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 35,
+      "x": -1330.71,
+      "y": 2569.88,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P15 星落湖：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 36,
+      "x": -1330.71,
+      "y": 2569.88,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#189｜P15 星落湖｜藏在山腰角落里直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 37,
+      "x": -1330.01,
+      "y": 2580.65,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P16–P17 望风角：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 38,
+      "x": -1330.01,
+      "y": 2580.65,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#201｜P16–P17 望风角｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 39,
+      "x": -1345.78,
+      "y": 2581.06,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#204｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 40,
+      "x": -1353.34,
+      "y": 2548.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#206｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 41,
+      "x": -1359.18,
+      "y": 2550.2,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#209｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 42,
+      "x": -1360.06,
+      "y": 2551.63,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#210｜P16–P17 望风角｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 43,
+      "x": -1363.22,
+      "y": 2551.67,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#211｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 44,
+      "x": -1364.81,
+      "y": 2553.38,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#212｜P16–P17 望风角｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 45,
+      "x": -1360.37,
+      "y": 2553.42,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#213｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 46,
+      "x": -1357.82,
+      "y": 2554.69,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#214｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 47,
+      "x": -1351.45,
+      "y": 2554.77,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#215｜P16–P17 望风角｜直接开启的【普通宝箱】10阅历"
+      }
+    },
+    {
+      "id": 48,
+      "x": -1352.99,
+      "y": 2555.6,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#216｜P16–P17 望风角｜直接开启的【华丽宝箱】内有【食谱：北地烟熏鸡】"
+      }
+    },
+    {
+      "id": 49,
+      "x": -1354.4,
+      "y": 2555.99,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#217｜P16–P17 望风角｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 50,
+      "x": -1352.99,
+      "y": 2556.43,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#218｜P16–P17 望风角｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 51,
+      "x": -1364.23,
+      "y": 2556.86,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#219｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 52,
+      "x": -1354.09,
+      "y": 2557.49,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#220｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 53,
+      "x": -1362.87,
+      "y": 2558.08,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#221｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 54,
+      "x": -1360.24,
+      "y": 2558.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#223｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 55,
+      "x": -1357.29,
+      "y": 2559.88,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#224｜P16–P17 望风角｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 56,
+      "x": -1359.49,
+      "y": 2560.82,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P18–P19 望风山地：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 57,
+      "x": -1359.49,
+      "y": 2560.82,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#225｜P18–P19 望风山地｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 58,
+      "x": -1356.86,
+      "y": 2581.56,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#236｜P18–P19 望风山地｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 59,
+      "x": -1374.18,
+      "y": 2531.31,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#254｜P18–P19 望风山地｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 60,
+      "x": -1386.34,
+      "y": 2532.17,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P20–P21 蒙德城：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 61,
+      "x": -1386.34,
+      "y": 2532.17,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#257｜P20–P21 蒙德城｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 62,
+      "x": -1375.36,
+      "y": 2532.79,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#260｜P20–P21 蒙德城｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 63,
+      "x": -1377.34,
+      "y": 2536.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#265｜P20–P21 蒙德城｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 64,
+      "x": -1376.94,
+      "y": 2540.49,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#269｜P20–P21 蒙德城｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 65,
+      "x": -1373.56,
+      "y": 2542.04,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#272｜P20–P21 蒙德城｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 66,
+      "x": -1373.08,
+      "y": 2548.56,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P22–P23 清泉镇：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 67,
+      "x": -1373.08,
+      "y": 2548.56,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#280｜P22–P23 清泉镇｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 68,
+      "x": -1383.71,
+      "y": 2582.71,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P24–P25 晨曦酒庄：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 69,
+      "x": -1383.71,
+      "y": 2582.71,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#310｜P24–P25 晨曦酒庄｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 70,
+      "x": -1392.45,
+      "y": 2516.78,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P26–P29 奔狼领：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 71,
+      "x": -1392.45,
+      "y": 2516.78,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#327｜P26–P29 奔狼领｜直接开启的【华丽宝箱】"
+      }
+    },
+    {
+      "id": 72,
+      "x": -1401.37,
+      "y": 2518.05,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#328｜P26–P29 奔狼领｜这是一个山崖下直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 73,
+      "x": -1392.67,
+      "y": 2521.49,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#333｜P26–P29 奔狼领｜岸边直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 74,
+      "x": -1396.32,
+      "y": 2524.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#336｜P26–P29 奔狼领｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 75,
+      "x": -1391.35,
+      "y": 2524.5,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#337｜P26–P29 奔狼领｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 76,
+      "x": -1388.71,
+      "y": 2535.22,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#351｜P26–P29 奔狼领｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 77,
+      "x": -1394.6,
+      "y": 2555.7,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#366｜P26–P29 奔狼领｜类型：可见宝箱；备注：位于山脚的角落里"
+      }
+    },
+    {
+      "id": 78,
+      "x": -1397.37,
+      "y": 2578.14,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P30 明冠峡：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 79,
+      "x": -1397.37,
+      "y": 2578.14,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#391｜P30 明冠峡｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 80,
+      "x": -1404.76,
+      "y": 2516.32,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P31–P36 风龙废墟：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 81,
+      "x": -1404.76,
+      "y": 2516.32,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#409｜P31–P36 风龙废墟｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 82,
+      "x": -1411.35,
+      "y": 2517.55,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#410｜P31–P36 风龙废墟｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 83,
+      "x": -1404.01,
+      "y": 2519.23,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#411｜P31–P36 风龙废墟｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 84,
+      "x": -1416.93,
+      "y": 2521.28,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#414｜P31–P36 风龙废墟｜这是一个可以直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 85,
+      "x": -1411.3,
+      "y": 2522.29,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#417｜P31–P36 风龙废墟｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 86,
+      "x": -1414.46,
+      "y": 2522.79,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#418｜P31–P36 风龙废墟｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 87,
+      "x": -1406.56,
+      "y": 2523.13,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#420｜P31–P36 风龙废墟｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 88,
+      "x": -1418.77,
+      "y": 2523.25,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#422｜P31–P36 风龙废墟｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 89,
+      "x": -1414.2,
+      "y": 2548.61,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#431｜P31–P36 风龙废墟｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 90,
+      "x": -1406.69,
+      "y": 2551.04,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#434｜P31–P36 风龙废墟｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 91,
+      "x": -1412.49,
+      "y": 2551.12,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#435｜P31–P36 风龙废墟｜直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 92,
+      "x": -1409.68,
+      "y": 2560,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#442｜P31–P36 风龙废墟｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 93,
+      "x": -1433.15,
+      "y": 2589.53,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#467｜P31–P36 风龙废墟｜直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 94,
+      "x": -1425.59,
+      "y": 2593.77,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#470｜P31–P36 风龙废墟｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 95,
+      "x": -1406.34,
+      "y": 2519.73,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#482｜P31–P36 风龙废墟｜这是一个直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 96,
+      "x": -1301.79,
+      "y": 2527.24,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#489｜P31–P36 风龙废墟｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 97,
+      "x": -1407.7,
+      "y": 2584.4,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P37 地灵龛：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 98,
+      "x": -1407.7,
+      "y": 2584.4,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#491｜P37 地灵龛｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 99,
+      "x": -1446.83,
+      "y": 2533.51,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#494｜P37 地灵龛｜这是一个在沙滩上直接开启的【精致宝箱】"
+      }
+    },
+    {
+      "id": 100,
+      "x": -1448.72,
+      "y": 2533.33,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#495｜P37 地灵龛｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 101,
+      "x": -1449.57,
+      "y": 2533.89,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#496｜P37 地灵龛｜这是一个直接开启的【华丽宝箱】"
+      }
+    },
+    {
+      "id": 102,
+      "x": -1378.89,
+      "y": 2548.12,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#499｜P37 地灵龛｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 103,
+      "x": -1374.52,
+      "y": 2551.82,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P38–P39 在璃月的蒙德宝箱：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 104,
+      "x": -1374.52,
+      "y": 2551.82,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#500｜P38–P39 在璃月的蒙德宝箱｜这是一个可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 105,
+      "x": -1418.19,
+      "y": 2601.41,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#510｜P38–P39 在璃月的蒙德宝箱｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 106,
+      "x": -1332.97,
+      "y": 2534.75,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#518｜P38–P39 在璃月的蒙德宝箱｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 107,
+      "x": -1382.43,
+      "y": 2574.29,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "P40 月之六新增：传送至首个目标附近的已解锁传送点"
+      }
+    },
+    {
+      "id": 108,
+      "x": -1382.43,
+      "y": 2574.29,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "视频#523｜P40 月之六新增｜这是一个直接开启的【普通宝箱】"
+      }
+    }
+  ]
+}
