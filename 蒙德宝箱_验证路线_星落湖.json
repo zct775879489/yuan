@@ -1,0 +1,151 @@
+{
+  "info": {
+    "name": "蒙德宝箱_验证路线_星落湖",
+    "type": "collect",
+    "version": "0.2.0-test",
+    "description": "星落湖验证段，10个明确可直接开启的普通宝箱。坐标由空荧酒馆瓦片投影换算(X=396.125-0.75*lat, Y=-619.9375-0.75*lng)，传送点与七天神像锚点偏移0。用于验证寻路与开箱动作，不含攀爬/绕障细路径。",
+    "map_name": "Teyvat",
+    "bgi_version": "0.45.0",
+    "tags": [
+      "蒙德",
+      "裸露宝箱",
+      "星落湖",
+      "验证"
+    ],
+    "authors": []
+  },
+  "positions": [
+    {
+      "id": 1,
+      "x": -1329.82,
+      "y": 2564.54,
+      "action": "",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport",
+      "point_ext_params": {
+        "description": "星落湖｜传送至七天神像(-1329.82, 2564.54)"
+      }
+    },
+    {
+      "id": 2,
+      "x": -1360.3,
+      "y": 2623.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 351｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 3,
+      "x": -1402.4,
+      "y": 2567.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 353｜这是一个草丛内直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 4,
+      "x": -1440.1,
+      "y": 2505.9,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 356｜这是一个在山脚直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 5,
+      "x": -1470.1,
+      "y": 2654.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 348｜这是一个在半山腰直接开启的【普通宝箱】内有2原石"
+      }
+    },
+    {
+      "id": 6,
+      "x": -1271.1,
+      "y": 2527.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 527｜可以直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 7,
+      "x": -1159.4,
+      "y": 2527,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 269｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 8,
+      "x": -1163.4,
+      "y": 2593.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 265｜直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 9,
+      "x": -1094.5,
+      "y": 2492.3,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 272｜这是一个直接开启的【普通宝箱】"
+      }
+    },
+    {
+      "id": 10,
+      "x": -1277.4,
+      "y": 2389.8,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 534｜这是一个直接开启的【普通宝箱】无原石"
+      }
+    },
+    {
+      "id": 11,
+      "x": -1291.1,
+      "y": 2408.1,
+      "action": "combat_script",
+      "move_mode": "walk",
+      "action_params": "keypress(f)",
+      "type": "target",
+      "point_ext_params": {
+        "description": "星落湖｜点位ID 277｜这是一个直接开启的【普通宝箱】"
+      }
+    }
+  ]
+}
